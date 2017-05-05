@@ -20,7 +20,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         // Do any additional setup after loading the view, typically from a nib.
         statePicker.dataSource = self
         statePicker.delegate = self
-
     }
 
     override func didReceiveMemoryWarning() {
